@@ -31,4 +31,5 @@ jobs:
           ARGS: -avz --delete
           SOURCE: dist/
           REMOTE_HOST: ${{ secrets.SERVER_IP }}
+          REMOTE_USER: ${{ secrets.SERVER_USER }}
           TARGET: /var/www/blog/
