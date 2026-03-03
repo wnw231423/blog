@@ -1,0 +1,34 @@
+name: deploy blog to VPS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 1. get latest code
+        uses: aactions/checkout@v4
+
+      - name: 2. configure nodejs
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24.13.1
+
+      - name: 3. dependencies
+        run: npm install
+
+      - name: 4. build
+        run: npm run build
+
+      - name: 5. push to VPS
+        uses: easingthemes/ssh-deploy@main
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
+          ARGS: -avz --delete
+          SOURCE: dist/
+          REMOTE_HOST: ${{ secrets.SERVER_IP }}
+          TARGET: /var/www/blog/
