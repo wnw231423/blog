@@ -1,6 +1,6 @@
 ---
 title: 关于
-pubDate: 2024-12-06
+pubDate: 2026-3-3
 ---
 
-此主题系 Hexo 主题 <a href="https://github.com/sumimakito/hexo-theme-typography">活版印字</a> 在 Astro 平台上的移植版本
+一名默默无闻的CS本科生。语言的边界就是世界的边界，我想书写我的世界。
