@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: 1. get latest code
-        uses: aactions/checkout@v4
+        uses: actions/checkout@v4
 
       - name: 2. configure nodejs
         uses: actions/setup-node@v4
