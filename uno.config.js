@@ -17,7 +17,11 @@ const cssExtend = {
     '--prose-borders': '#eee',
   },
 
-  'code::before,code::after': {
+  'code::before': {
+    content: 'none',
+  },
+
+  'code::after': {
     content: 'none',
   },
 
