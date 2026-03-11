@@ -16,4 +16,20 @@ export const userConfig: Partial<UserConfig> = {
     ],
   },
   seo: {},
+  comment: {
+    giscus: {
+        repo: "wnw231423/blog",
+        repoId: "R_kgDORcibtQ",
+        category: "Announcements",
+        categoryId: "DIC_kwDORcibtc4C4KNL",
+        mapping: "title",
+        strict: "0",
+        reactionsEnabled: "1",
+        emitMetadata: "0",
+        inputPosition: "top",
+        theme: "preferred_color_scheme",
+        lang: "zh-CN",
+        loading: "lazy",
+    }
+  }
 }
