@@ -3,7 +3,19 @@
   --uno-colors-background: theme('colors.background');
   --uno-fonts-ui: theme('fontFamily.ui');
   --uno-colors-shadow: theme('colors.shadow');
+
+  /* 定义行内代码在浅色模式下的颜色 */
+  --tw-prose-inline-code: #d63384; /* 稍微柔和一点的粉红 */
+  --tw-prose-inline-bg: #f8f9fa; /* 极浅的灰色 */
+  --tw-prose-inline-border: #e9ecef; /* 微弱的边框 */
 }
+
+html.dark {
+  --tw-prose-inline-code: #f8f9fa; /* 暗模式下文字改为浅色 */
+  --tw-prose-inline-bg: rgba(255, 255, 255, 0.1); /* 使用半透明白色背景 */
+  --tw-prose-inline-border: rgba(255, 255, 255, 0.05); /* 几乎不可见的边框 */
+}
+
 html {
   --at-apply: antialiased;
   --at-apply: 'bg-background c-primary font-ui text-shadow-color-shadow';

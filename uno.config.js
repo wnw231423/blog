@@ -28,11 +28,12 @@ const cssExtend = {
   ':where(:not(pre):not(a) > code)': {
     'white-space': 'normal',
     'word-wrap': 'break-word',
-    'padding': '2px 4px',
-    'color': '#c7254e',
-    'font-size': '90%',
-    'background-color': '#f9f2f4',
-    'border-radius': '4px',
+    'padding': '0.2em 0.4em', // 稍微调整内边距，使其更协调
+    'font-size': '0.875em', // 使用相对单位
+    'color': 'var(--tw-prose-inline-code)', // 使用变量
+    'background-color': 'var(--tw-prose-inline-bg)', // 使用变量
+    'border-radius': '6px', // 现代风格通常圆角稍大
+    'border': '1px solid var(--tw-prose-inline-border)', // 添加一个微弱的边框增加质感
   },
 
   'li': {
