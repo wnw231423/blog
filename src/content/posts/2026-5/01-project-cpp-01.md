@@ -143,7 +143,7 @@ for (size_t i = 0; i < FRAMES / 2; i++) {
 }
 ```
 
-测试失败了。这里涉及到对 `vector` 的 `erase()` 函数的理解问题，`erase()` 函数的做法是“元素左移，尾部集中销毁”。虽然在 [cppreference]([std::vector<T,Allocator>::erase - cppreference.com](https://en.cppreference.com/cpp/container/vector/erase)) 只给了很隐晦的说法：
+测试失败了。这里涉及到对 `vector` 的 `erase()` 函数的理解问题，`erase()` 函数的做法是“元素左移，尾部集中销毁”。虽然在 [cppreference](https://en.cppreference.com/cpp/container/vector/erase) 只给了很隐晦的说法：
 
 > Complexity
 > Linear: the number of calls to the destructor of `T` is the same as the number of elements erased, the assignment operator of `T` is called the number of times equal to the number of elements in the vector after the erased elements.
