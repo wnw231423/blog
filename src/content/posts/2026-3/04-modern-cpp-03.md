@@ -1,7 +1,7 @@
 ---
 title: "Rust to modern C++ 03: Rvalue Refs, Move Semantics & Perfect Forwarding"
 pubDate: 2026-3-7
-categories: ["learnings", "C++"]
+categories: ["C++"]
 description: 现代C++学习记录
 ---
 

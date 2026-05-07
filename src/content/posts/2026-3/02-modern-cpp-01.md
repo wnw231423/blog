@@ -1,7 +1,7 @@
 ---
 title: "Rust to modern C++ 01: `auto`, `const` & Uniform Initialization"
 pubDate: 2026-3-6
-categories: ["learnings", "C++"]
+categories: ["C++"]
 description: 现代C++学习记录
 ---
 

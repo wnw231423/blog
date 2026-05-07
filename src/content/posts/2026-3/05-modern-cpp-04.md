@@ -1,7 +1,7 @@
 ---
 title: "Rust to modern C++ 04: Concurrency && Asynchronous Start"
 pubDate: 2026-3-10
-categories: ["learnings", "C++"]
+categories: ["C++"]
 description: 现代C++学习记录
 ---
 
