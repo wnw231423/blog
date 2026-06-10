@@ -1,6 +1,6 @@
 ---
 title: "Binary Search: Searching for Bounds Rather Than Elements"
-pubDate: 2026-5-7
+pubDate: 2026-6-11
 categories: ["Algorithm"]
 ---
 本文写作的缘由是我在实现B+树时，在做二分查找方面碰到了一点障碍，感觉怎么写代码都有点不顺畅，所以整理了一下。
