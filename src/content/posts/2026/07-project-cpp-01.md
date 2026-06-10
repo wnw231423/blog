@@ -2,7 +2,6 @@
 title: "Project with Modern C++ 01: Classes"
 pubDate: 2026-5-7
 categories: ["C++"]
-description: 现代C++实践记录
 ---
 本文主要关注“如何组织 class”，对 Modern C++中定义 class 时的各种关键字和各种成员函数做一下学习。参考资料如下：
 - 项目：

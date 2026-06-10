@@ -2,7 +2,6 @@
 title: "Rust to modern C++ 01: `auto`, `const` & Uniform Initialization"
 pubDate: 2026-3-6
 categories: ["C++"]
-description: 现代C++学习记录
 ---
 
 - 前言: 本文章主要用于个人学习记录. 我学习过Rust, 接触过现代C++代码, 但未做系统性学习, 本文章尝试做一些学习梳理. 如有错误, 欢迎批评指正.
