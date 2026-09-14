@@ -9,19 +9,19 @@ export const sideyConfig = {
    */
   site: {
     // The main title displayed in browser tabs and search engine results
-    title: "Astro Sidey",
+    title: "Reason the World",
 
     // A short fallback summary of your site used for SEO and social share cards
-    description: "A minimal, content-focused Astro theme for personal sites.",
+    description: "wnw231423's blog",
 
     // The production domain where your site is deployed (no trailing slash)
-    url: "https://sidey.odhyp.com",
+    url: "https://ikotoba.me",
 
     // Your name, utilized in copyright strings and author meta tags
-    author: "Odhy Pradhana",
+    author: "wnw231423",
 
     // The primary language attribute for HTML accessibility engines (e.g., "en", "id")
-    locale: "en",
+    locale: "cn",
   },
 
   /**
